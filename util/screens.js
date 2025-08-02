@@ -10,7 +10,7 @@ const PW = "admin";
 export async function boot() {
 	clear();
 
-	await type("Welcome to ECMA industries(TM) terminal", {
+	await type("Welcome to Coglin Industries(TM) terminal", {
 		initialWait: 3000
 	});
 
@@ -21,7 +21,7 @@ export async function boot() {
 		[
 			".....",
 			"Please wait........",
-			"..........",
+			"...",
 			"...",
 			".",
 			".",
@@ -170,3 +170,4 @@ export function div(...args) {
 export function clear(screen = document.querySelector(".terminal")) {
 	screen.innerHTML = "";
 }
+
